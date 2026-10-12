@@ -10,7 +10,16 @@
                 }
             ]
         },
-        { "type": "Heading", "param": 2, "content": [ { "type": "Text", "param": "1" } ] },
+        {
+            "type": "Heading",
+            "param": 2,
+            "content": [
+                {
+                    "type": "Text",
+                    "param": "1"
+                }
+            ]
+        },
         {
             "type": "Heading",
             "param": 3,

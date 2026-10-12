@@ -15,10 +15,12 @@
 		"serve": "vite preview"
 	},
 	"dependencies": {
+		"idb": "^8.0.4",
 		"vite": "^8.3.4",
 		"wordgard": "^0.5.2"
 	},
 	"devDependencies": {
 		"@nerd-bible/config": "^0.2.5"
-	}
+	},
+	"prettier": "@nerd-bible/config/prettier"
 }
