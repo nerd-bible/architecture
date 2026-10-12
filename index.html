@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="eng" class="system">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no"
+    />
+    <script type="module" src="./src/index.ts"></script>
+    <title>Benchmarks</title>
+  </head>
+  <body>
+    <h1>HTML vs JSON</h1>
+    <label>
+      Trials
+      <input id="trials" type="number" value="10" />
+    </label>
+    <h2>Results</h2>
+    <div id="results"></div>
+    <h2>In memory</h2>
+    <select id="compression">
+      <option value="none" selected>None</option>
+      <option value="gzip">GZip</option>
+      <option value="deflate">Deflate</option>
+      <option value="deflate-raw">Deflate raw</option>
+      <option value="zstd">ZSTD</option>
+    </select>
+    <button onclick="html()">HTML</button>
+    <button onclick="json()">JSON</button>
+    <h2>Editor</h2>
+    <div id="editor"></div>
+  </body>
+</html>
