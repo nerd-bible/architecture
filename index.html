@@ -10,11 +10,18 @@
     <title>Benchmarks</title>
   </head>
   <body>
-    <h1>HTML vs JSON</h1>
+    <h1>Storage</h1>
     <form id="form">
       <label>
         Trials
         <input name="trials" type="number" value="10" />
+      </label>
+      <label>
+        String encoding
+        <select name="encoding">
+          <option value="utf-8" selected>utf-8</option>
+          <option value="utf-16">utf-16</option>
+        </select>
       </label>
       <label>
         Compression
@@ -31,7 +38,6 @@
         Persistence
         <select name="persistence">
           <option value="none" selected>None</option>
-          <option value="localstorage">Local storage</option>
           <option value="idb">idb</option>
           <option value="opfs">OPFS</option>
           <option value="opfs-sync">OPFS (sync)</option>
