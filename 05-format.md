@@ -44,6 +44,7 @@ the tasks I'm interested in:
 - Coreference resolution, for search
 	- I.e. Peter went fishing. Then he (Peter) saw Jesus. Then he (Jesus) said,
 	  "Follow me."
+	- As of 2026, still having [active improvements](8)
 
 The closest thing to what I want is [compromise](3) or [spaCy ported to JS](4).
 Compromise tends to be innaccurate and difficult to extend for NER and
@@ -61,3 +62,4 @@ support ML models.
 [5]: https://huggingface.co/learn/llm-course/chapter6/5
 [6]: https://github.com/martianmartina/TreeTokenizer/tree/main
 [7]: https://www.vennify.ai/fine-tune-grammar-correction/
+[8]: https://aclanthology.org/2026.codi-1.27.pdf
