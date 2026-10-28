@@ -53,7 +53,8 @@ right idea with supporting ML models, but it's difficult to port to work in a
 browser.
 
 The right thing to do is to start from scratch and build a C API that can
-support ML models.
+target WASM. It should have functionality similar to spaCy and support ML
+models.
 
 [1]: https://kaikki.org/dictionary/rawdata.html
 [2]: https://www.gutenberg.org/cache/epub/29765/pg29765.txt
