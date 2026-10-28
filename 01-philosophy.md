@@ -4,14 +4,29 @@ Users should be fully in control of rich text documents:
 - from a website
 	- in >99% of active browsers
 - offline
-- potentially larger than memory
 - easily referenceable
 - quickly searchable
 - shareable
 
-To accomplish this, we should use:
-- Copyleft publications
-- Copyleft software
-- HTML documents
-- Git
-- Custom search implementation
+## implementation
+
+> - from a website
+> 	- in >99% of active browsers
+
+Use a reactive web framework and target the earliest possible date.
+
+> - offline
+
+Use a service worker that caches assets.
+
+> - easily referenceable
+
+Support indexing documents by headers/verses.
+
+> - quickly searchable
+
+Support various indexing schemes. Support partial loading for snippets.
+
+> - shareable
+
+Store user content in Git and make it as transparent as possible.
