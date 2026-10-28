@@ -30,3 +30,5 @@ Support various indexing schemes. Support partial loading for snippets.
 > - shareable
 
 Store user content in Git and make it as transparent as possible.
+
+To share the app and content, code is BSD0 and content is CC0 or CC-BY.

@@ -9,8 +9,8 @@ OPFS is used because it has a synchronous API that may be used from WASM. Its
 API also maps better to filesystem operations than an IndexedDB shim. Finally,
 it's usually faster.
 
-SQL databases [dolt](1) and [Turso](2) were attempted which promised
-collaborative features. Unfortunately, they failed at them:
+I considered a bunch of SQL databases which promised collaborative features.
+Unfortunately, they all failed:
 
 ## sqlite
 
@@ -49,3 +49,12 @@ Agentic databases. Thankfully, our users aren't agents.
 [1]: https://github.com/dolthub/doltlite
 [2]: https://github.com/tursodatabase/turso
 [3]: https://github.com/rhashimoto/wa-sqlite/
+
+## custom
+
+I considered building a novel custom database. I started reading and quickly
+learned that's a bad idea:
+- https://cstack.github.io/db_tutorial/parts/part7.html
+- https://github.com/cstack/db_tutorial/blob/master/db.c
+- https://blobs.duckdb.org/slides/DiDi.pdf
+- https://arpitbhayani.me/blogs/join-algorithms
